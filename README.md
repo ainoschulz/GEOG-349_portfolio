@@ -48,7 +48,15 @@ GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/
 GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.2h8g9b](https://doi.org/10.15468/dl.2h8g9b) (Polar Bear) <br> <br>
 
 ## Final work
-The visualisations can be found followingly:<br>
+![Figure 8](images/average_temp.png)
+*Figure 8. Average annual temperature between 1991-2020*<br> <br>
+![Figure 9](images/average_temp_trend.png)
+*Figure 9. Trend in average annual temperature between 1951-2021*<br> <br>
+![Figure 10](images/snow_season_length.png)
+*Figure 10. Average length of snow season between 1991-2020*<br> <br>
+![Figure 11](images/snow_season_length_trend.png)
+*Figure 11. Trend in average length of snow season between 1951-2020*<br> <br>
+The interactive maps:<br>
 [Arctic Fox bar plot](https://ainoschulz.github.io/GEOG-349_portfolio/arctic_fox_observations_plot.html)<br>
 [Arctic Fox map](https://ainoschulz.github.io/GEOG-349_portfolio/arctic_fox_observations_map.html)<br>
 [Polar Bear bar plot](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_plot.html)<br>
