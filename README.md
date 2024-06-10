@@ -48,6 +48,10 @@ GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/
 GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.2h8g9b](https://doi.org/10.15468/dl.2h8g9b) (Polar Bear) <br> <br>
 
 ## Final work
+### Introduction to topic
+As my final work I wanted to investigate the changes in the Arctic. I first stumbled upon the GBIF dataset and thought that it could be interesting to visualize the changes in species distribution of two representative Arctic species, the Arctic Fox and Polar Bear. Since the ARCLIM dataset also seemed interesting and it concentrates on the same region where the studied species are found, I thought about how I could incorporate it to my other datasets. I first wanted to make an interactive visualization with yearly mean temperatures and species observations. However, because the ARCLIM dataset is so large, this proved not to be feasible as the resulting html file wouldn’t open and could not be uploaded to GitHub due to its size. Thus, I decided to do a more simple analysis that wouldn’t produce too large file sizes. <br> <br>
+I made maps with the ARCLIM dataset in QGIS using the mean and trend files. Both of these files include 18 bands which represent different measured variables. Considering my interest in visualizing the spatio-temporal patterns of Arctic Fox and Polar Bear observations, I decided to visualize the bands on snow season length and annual mean temperature. I felt like these layers would most likely have the most significant impact on the species. These layers, however, only provide a general overview of the region and the observed trends. It could have been interesting to also make a time series of yearly mean temperatures, but this was abandoned due to the large size of the file. On the other hand, the species data was handled with Python. The changes in species observations were visualized with bar plots, to show the temporal variation of species observations, and with interactive maps, to show the spatial variation in species observations. The goal of the maps is to provide insights into the changes happening in the Arctic with the help of climatic variables as well as species observations.
+### Results and visualizations
 ![Figure 8](images/average_temp.png)
 *Figure 8. Average annual temperature between 1991-2020*<br> <br>
 ![Figure 9](images/average_temp_trend.png)
@@ -62,4 +66,4 @@ The interactive maps:<br>
 [Polar Bear bar plot](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_plot.html)<br>
 [Polar Bear map](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_map.html)<br>
  
-## Conclusions
+### Conclusions
