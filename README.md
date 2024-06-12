@@ -62,10 +62,9 @@ Figure 10 shows the average length of snow season between 1991 – 2020 while fi
 *Figure 10. Average length of snow season between 1991-2020*<br> <br>
 ![Figure 11](images/snow_season_length_trend.png)
 *Figure 11. Trend in average length of snow season between 1951-2021*<br> <br>
+My second set of figures show the temporal and spatial evolution of two Arctic species, the Arctic Fox and Polar Bear. All these figures are interactive and can be accessed by pressing the links shown underlined in blue. [Figure 12](https://ainoschulz.github.io/GEOG-349_portfolio/arctic_fox_observations_plot.html) shows the distribution of Arctic Fox observations over time. We see that most observations were made between 1950 – 1963. After this there is a quieter time period, with a new peak in the 90s and early 2000s as well as post 2012. It is quite interesting that there are so many observations post 2012 which have been dubbed as the hottest decade. This also raises the question of how the observations have been made and whether the methodology has changed over time, which explains the fluctuations in population or whether these are the trends actually happening. The trend of Polar Bear observations in [Figure 13](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_plot.html) is also intriguing. Here the trend has been quite stable with a peak in observations around the 70s and the most observations made in 2005. Compared to the Arctic Fox, the population of Polar Bears is smaller with fewer observations made. It also doesn’t seem like the population has been declining. In this figure as well as figure 12 the number of observations for 2024 is very small, but this is because we are only halfway through 2024.<br> <br>
 The interactive maps:<br>
-[Arctic Fox bar plot](https://ainoschulz.github.io/GEOG-349_portfolio/arctic_fox_observations_plot.html)<br>
 [Arctic Fox map](https://ainoschulz.github.io/GEOG-349_portfolio/arctic_fox_observations_map.html)<br>
-[Polar Bear bar plot](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_plot.html)<br>
 [Polar Bear map](https://ainoschulz.github.io/GEOG-349_portfolio/polar_bear_observations_map.html)<br>
  
 ### Conclusions
