@@ -3,6 +3,19 @@ Portfolio for course GEOG-349
 
 The course consisted of four weeks of lectures and discussion sessions where we learned about cartographic principles and how to make visually pleasing and informative maps. The maps could be done with QGIS or with Python. I ended up using both of these methods during the course as well as for the final portfolio. This repository, or GitHub page, contains a compilation of the weekly exercises and a summary of their reflections, description of the data used during the course and the portfolio, an introduction to the final work done and what kinds of visualizations were done in addition to a conclusion which summarizes the final work. <br>
 
+## Table of contents
+- [Compilation of weekly excersices](#compilation-of-weekly-excersices)
+- [Final work](#final-work)
+  - [Introduction to topic](#introduction-to-topic)
+  - [Results and visualizations](#results-and-visualizations)
+  - [Conclusions](#conclusions)
+- [Description of data](#description-of-data)
+  - [Week 1](#week-1)
+  - [Week 2](#week-2)
+  - [Week 3](#week-3)
+  - [Week 4](#week-4)
+  - [Final work](#final-work)
+
 ## Compilation of weekly excersices
 On the first week of the course, we discussed the elements of a good map. There are several elements that are needed for “good” maps which have been ingrained into our brains since comprehensive school. For example, in my matriculation exam there was a question on what the visual elements of a well-made map are. Basic map elements usually included in maps are map title, legend, scale, orientation, metadata, and index map. However, not all these elements are always necessary, and their inclusion depends on the context and use of the map. For example, if the spatial orientation of the map is known, a north arrow is not necessary (e.g. global maps). In addition to map elements, the colours used in maps are also very important. Depending on the colours chosen, the map maker can influence the reader’s perception of the topic. This however depends also on the culture, but for example, western readers green symbolizes positive phenomena while red has a more negative connotation. In addition to the feelings that are associated with colours, map makers need to also make sure that their maps are as accessible as possible and for example colour blind people can interpret them without problems. <br> <br>
 As our first assignment we had to create a thematic map which can be seen in Figure 1. The most difficult part of the assignment was to find the data as we could visualize whatever we wanted. I ended up visualizing the Urban Heat Vulnerability Index with urban greenspaces in Helsinki with QGIS to see whether there is any connection between them. The visualization is not the best one as it is missing the source of the data, and the transparency of the greenspaces layer doesn’t quite work. The data was visualized with 6 classes with the classes being divided according to natural breaks. The visualization uses a yellow-orange-brown colour gradient to communicate warmth associated with heat. The colour ramp was edited because I felt that the colours of some middle classes were too dark in comparison to what kinds of values they represent. The thematic map depicts the relationship between heat vulnerability and greenspaces in Helsinki. The map shows clear trends of higher index values in city districts with fewer greenspaces and lower index values in districts with more greenspaces. <br> <br>
@@ -28,25 +41,6 @@ In honour of the last week, we made interactive maps in addition to non-cartogra
 ![Figure 7](images/squirrels_2.png)
 *Figure 7. Trend of flying squirrel observations over time.*<br> <br>
 
-## Description of data
-### Week 1
-The map of week 1 used a heat vulnerability dataset from Helsinki InfoShare, and a greenspace layer from the Helsinki City WFS. The index is measured as a function of exposure, sensitivity, and adaptive capacity.<br> <br>
-[Urban Heat Vulnerability Index of Helsinki](hri.fi/data/en_GB/dataset/helsingin-lampohaavoittuvuusindeksi). The maintainer of the dataset is Helsingin kaupunginkanslia. The dataset has been downloaded from Helsinki Region Infoshare service on 09.06.2024 under the license Creative Commons Attribution 4.0.<br> <br>
-### Week 2
-The map of week 2 used a PPGIS dataset collected by Kajosaari et al. (2024). It consist of two main attributes: probability for positive perceived quality and probability for negative perceived quality. <br> <br>
-Kajosaari, A., Hasanzadeh, K., Fagerholm, N., Nummi, P., Kuusisto-Hjort, P., & Kyttä, M. (2024). Predicting context-sensitive urban green space quality to support urban green infrastructure planning. Landscape and Urban Planning, 242, 104952. [https://doi.org/10.1016/j.landurbplan.2023.104952](https://doi.org/10.1016/j.landurbplan.2023.104952) <br> <br> 
-### Week 3
-Maps of week 3 use internet speed data provided by Ookla from the first quarter of 2022. No metadata was found, and only the information on downloading speed was thus used.<br> <br>
-Data downloaded from Ookla in parquet format using [link.](https://ookla-open-data.s3.us-west-2.amazonaws.com/parquet/performance/type=mobile/year=2022/quarter=1/2022-01-01_performance_mobile_tiles.parquet) <br> <br>
-### Week 4
-Maps of week 4 use flying squirrel data from Metsähallitus. Data includes flying squirrel observations with geometric information from a large time scale. The data was downloaded form the link on the course page and more information on the data can be found from the page of [Metsähallitus](https://www.metsa.fi/en/project/flying-squirrel-life/flying-squirrel-information/) <br> <br>
-### Final maps
-For the final maps data from two different websites were used. For the static maps data from ARCLIM was downloaded. In the visualization mean values of 1991 – 2020 and trend values of 1951 – 2021 were used to visualize snow season lengths and annual mean temperature. Snow season length is expressed in days and annual mean temperature in Kelvins, but it was visualized in Celsius degrees. For the interactive maps data from Global Biodiversity Information Facility (GBIF) was used to study the spatial and temporal variations in Arctic Fox and Polar Bear observations. The data includes multiple variables, including geometric information. It is critical to note that the dataset has imprecise coordinates which can be seen in the maps. <br> <br>
-Rantanen, Mika; Kämäräinen, Matti; Niittynen, Pekka; Phoenix, Gareth K; Lenoir, Jonathan; Maclean, Ilya; et al. (2023). Mean conditions of 1991-2020 of ARCLIM variables. figshare. Dataset. [https://doi.org/10.6084/m9.figshare.21739511.v2](https://doi.org/10.6084/m9.figshare.21739511.v2) <br> <br>
-Rantanen, Mika; Kämäräinen, Matti; Niittynen, Pekka; Phoenix, Gareth K; Lenoir, Jonathan; Maclean, Ilya; et al. (2023). Trend values of 1951-2021 of ARCLIM variables. figshare. Dataset. [https://doi.org/10.6084/m9.figshare.21739496.v2](https://doi.org/10.6084/m9.figshare.21739496.v2) <br> <br>
-GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.tueu85](https://doi.org/10.15468/dl.tueu85) (Arctic Fox) <br> <br>
-GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.2h8g9b](https://doi.org/10.15468/dl.2h8g9b) (Polar Bear) <br> <br>
-
 ## Final work
 ### Introduction to topic
 As my final work I wanted to investigate the changes in the Arctic. I first stumbled upon the GBIF dataset and thought that it could be interesting to visualize the changes in species distribution of two representative Arctic species, the Arctic Fox and Polar Bear. Since the ARCLIM dataset also seemed interesting and it concentrates on the same region where the studied species are found, I thought about how I could incorporate it to my other datasets. I first wanted to make an interactive visualization with yearly mean temperatures and species observations. However, because the ARCLIM dataset is so large, this proved not to be feasible as the resulting html file wouldn’t open and could not be uploaded to GitHub due to its size. Thus, I decided to do a more simpler analysis that wouldn’t produce too large file sizes. <br> <br>
@@ -67,3 +61,22 @@ On the other hand, [Figure 14](https://ainoschulz.github.io/GEOG-349_portfolio/a
 
  
 ### Conclusions
+
+## Description of data
+### Week 1
+The map of week 1 used a heat vulnerability dataset from Helsinki InfoShare, and a greenspace layer from the Helsinki City WFS. The index is measured as a function of exposure, sensitivity, and adaptive capacity.<br> <br>
+[Urban Heat Vulnerability Index of Helsinki](hri.fi/data/en_GB/dataset/helsingin-lampohaavoittuvuusindeksi). The maintainer of the dataset is Helsingin kaupunginkanslia. The dataset has been downloaded from Helsinki Region Infoshare service on 09.06.2024 under the license Creative Commons Attribution 4.0.<br> <br>
+### Week 2
+The map of week 2 used a PPGIS dataset collected by Kajosaari et al. (2024). It consist of two main attributes: probability for positive perceived quality and probability for negative perceived quality. <br> <br>
+Kajosaari, A., Hasanzadeh, K., Fagerholm, N., Nummi, P., Kuusisto-Hjort, P., & Kyttä, M. (2024). Predicting context-sensitive urban green space quality to support urban green infrastructure planning. Landscape and Urban Planning, 242, 104952. [https://doi.org/10.1016/j.landurbplan.2023.104952](https://doi.org/10.1016/j.landurbplan.2023.104952) <br> <br> 
+### Week 3
+Maps of week 3 use internet speed data provided by Ookla from the first quarter of 2022. No metadata was found, and only the information on downloading speed was thus used.<br> <br>
+Data downloaded from Ookla in parquet format using [link.](https://ookla-open-data.s3.us-west-2.amazonaws.com/parquet/performance/type=mobile/year=2022/quarter=1/2022-01-01_performance_mobile_tiles.parquet) <br> <br>
+### Week 4
+Maps of week 4 use flying squirrel data from Metsähallitus. Data includes flying squirrel observations with geometric information from a large time scale. The data was downloaded form the link on the course page and more information on the data can be found from the page of [Metsähallitus](https://www.metsa.fi/en/project/flying-squirrel-life/flying-squirrel-information/) <br> <br>
+### Final maps
+For the final maps data from two different websites were used. For the static maps data from ARCLIM was downloaded. In the visualization mean values of 1991 – 2020 and trend values of 1951 – 2021 were used to visualize snow season lengths and annual mean temperature. Snow season length is expressed in days and annual mean temperature in Kelvins, but it was visualized in Celsius degrees. For the interactive maps data from Global Biodiversity Information Facility (GBIF) was used to study the spatial and temporal variations in Arctic Fox and Polar Bear observations. The data includes multiple variables, including geometric information. It is critical to note that the dataset has imprecise coordinates which can be seen in the maps. <br> <br>
+Rantanen, Mika; Kämäräinen, Matti; Niittynen, Pekka; Phoenix, Gareth K; Lenoir, Jonathan; Maclean, Ilya; et al. (2023). Mean conditions of 1991-2020 of ARCLIM variables. figshare. Dataset. [https://doi.org/10.6084/m9.figshare.21739511.v2](https://doi.org/10.6084/m9.figshare.21739511.v2) <br> <br>
+Rantanen, Mika; Kämäräinen, Matti; Niittynen, Pekka; Phoenix, Gareth K; Lenoir, Jonathan; Maclean, Ilya; et al. (2023). Trend values of 1951-2021 of ARCLIM variables. figshare. Dataset. [https://doi.org/10.6084/m9.figshare.21739496.v2](https://doi.org/10.6084/m9.figshare.21739496.v2) <br> <br>
+GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.tueu85](https://doi.org/10.15468/dl.tueu85) (Arctic Fox) <br> <br>
+GBIF.org (03 June 2024) GBIF Occurrence Download from [https://doi.org/10.15468/dl.2h8g9b](https://doi.org/10.15468/dl.2h8g9b) (Polar Bear) <br> <br>
