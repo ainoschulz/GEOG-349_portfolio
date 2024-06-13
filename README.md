@@ -13,7 +13,7 @@ The course consisted of four weeks of lectures and discussion sessions where we 
   - [Introduction to topic](#introduction-to-topic)
   - [Results and visualizations](#results-and-visualizations)
   - [Conclusions](#conclusions)
-- [Description of data](#description-of-data)
+- [Data description](#data-description)
   - [Week 1](#week-1)
   - [Week 2](#week-2)
   - [Week 3](#week-3)
@@ -73,7 +73,7 @@ All in all, the goal of these maps and figures is to shed light on the changes h
 The analysis of species distribution data from the GBIF database revealed some temporal and spatial variations in observations. Arctic Fox observations have varied over time, with notable peaks in the 1950s-1960s and the early 2000s. The recent increase in observations post-2012 raises questions about the potential impacts of recent climatic changes on their distribution and whether changes in observation methodologies cause some of the fluctuations. Polar Bear observations show a somewhat stable trend with peaks in the 1970s and 2005. However, the overall number of observations is lower compared to the Arctic Fox, indicating a smaller population and potentially more restricted distribution. The spatial analysis revealed that most Polar Bear observations have been concentrated in Alaska and Northern Canada before the 1980s, with later observations extending to Greenland, Svalbard, and northern Russia. This could indicate a geographical bias in study efforts over different time periods.<br> <br>
 Despite these insights, the study also noted significant issues with the GBIF dataset. Misplaced coordinates and lack of precision present challenges for fine-scale studies. For instance, there were observations of Arctic Foxes near Florida and Denmark, and Polar Bears in the Great Lakes regions and southern Finland, highlighting the need for critical evaluation of data before making definite conclusions. In addition, the analysis faced limitations due to the large size of the ARCLIM dataset, which constrained the possibilities of interactive visualizations combining climatic data with species observations. Overall, the combined use of climatic and species observation data provides insight into the ongoing changes in the Arctic. However, it also emphasizes the need for careful data handling and critical assessment to ensure the reliability of conclusions drawn from such analyses. The Arctic continues to be an interesting study area with sensitive ecosystems are adapted for specific conditions that are changing at a remarkable pace.<br> <br>
 
-## Description of data
+## Data description
 ### Week 1
 The map of week 1 used a heat vulnerability dataset from Helsinki InfoShare, and a greenspace layer from the Helsinki City WFS. The index is measured as a function of exposure, sensitivity, and adaptive capacity.<br> <br>
 [Urban Heat Vulnerability Index of Helsinki](hri.fi/data/en_GB/dataset/helsingin-lampohaavoittuvuusindeksi). The maintainer of the dataset is Helsingin kaupunginkanslia. The dataset has been downloaded from Helsinki Region Infoshare service on 09.06.2024 under the license Creative Commons Attribution 4.0.<br> <br>
